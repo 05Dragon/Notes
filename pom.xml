@@ -2,7 +2,7 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.openjfx</groupId>
-  <artifactId>hellofx</artifactId>
+  <artifactId>Taskade</artifactId>
   <packaging>jar</packaging>
   <version>1.0-SNAPSHOT</version>
   <name>demo</name>
@@ -10,7 +10,7 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <javafx.version>19</javafx.version>
+    <javafx.version>20</javafx.version>
     <javafx.maven.plugin.version>0.0.8</javafx.maven.plugin.version>
     <maven.compiler.source>17</maven.compiler.source>
     <maven.compiler.target>17</maven.compiler.target>
@@ -36,7 +36,7 @@
         <artifactId>javafx-maven-plugin</artifactId>
         <version>${javafx.maven.plugin.version}</version>
         <configuration>
-          <mainClass>HelloFX</mainClass>
+          <mainClass>Taskade</mainClass>
         </configuration>
       </plugin>
     </plugins>

@@ -1,0 +1,11 @@
+.homeButtons {
+    -fx-background-color: #ffffff;
+    -fx-background-radius: 17;
+    -fx-border-radius: 30;
+    -fx-width: 151;
+    -fx-height: 57;
+    -fx-font-size: 25px;
+    -fx-font-family: calibri;
+    -fx-font-weight: bold;
+    -fx-text-fill: gray;
+}

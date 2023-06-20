@@ -1,0 +1,9 @@
+.toolbar {
+    -fx-background-radius: 30;
+    -fx-background-color: #fcf7c0;
+    -fx-border-color: white;
+    -fx-border-width: 5px;
+    -fx-border-radius: 35;
+    -fx-max-height: 72;
+    -fx-max-width: 250;
+}
